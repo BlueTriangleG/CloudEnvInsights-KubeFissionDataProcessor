@@ -1,0 +1,55 @@
+include:
+- ./functions/coursesstudents/coursesstudents.py
+kind: ArchiveUploadSpec
+name: functions-coursesstudents-coursesstudents-py-OZr1
+
+---
+apiVersion: fission.io/v1
+kind: Package
+metadata:
+  creationTimestamp: null
+  name: coursesstudents-27bee01f-65ad-467b-a400-ddda156e25bf
+spec:
+  deployment:
+    checksum: {}
+    type: url
+    url: archive://functions-coursesstudents-coursesstudents-py-OZr1
+  environment:
+    name: python
+    namespace: ""
+  source:
+    checksum: {}
+status:
+  buildstatus: none
+  lastUpdateTimestamp: "2024-03-18T05:30:53Z"
+
+---
+apiVersion: fission.io/v1
+kind: Function
+metadata:
+  creationTimestamp: null
+  name: coursesstudents
+spec:
+  InvokeStrategy:
+    ExecutionStrategy:
+      ExecutorType: poolmgr
+      MaxScale: 0
+      MinScale: 0
+      SpecializationTimeout: 120
+      TargetCPUPercent: 0
+    StrategyType: execution
+  concurrency: 500
+  configmaps:
+    - name: parameters
+      namespace: ""
+  environment:
+    name: python
+    namespace: ""
+  functionTimeout: 60
+  idletimeout: 120
+  package:
+    packageref:
+      name: coursesstudents-27bee01f-65ad-467b-a400-ddda156e25bf
+      namespace: ""
+  requestsPerPod: 1
+  resources: {}

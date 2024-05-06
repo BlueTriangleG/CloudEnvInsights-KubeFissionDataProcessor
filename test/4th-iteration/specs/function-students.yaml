@@ -1,0 +1,59 @@
+include:
+  - ./functions/students/students.py
+  - ./functions/library/Commons.py
+  - ./functions/library/ESDocument.py
+  - ./functions/library/ESStudent.py
+kind: ArchiveUploadSpec
+name: functions-students-students-py-dTmD
+
+---
+apiVersion: fission.io/v1
+kind: Package
+metadata:
+  creationTimestamp: null
+  name: students-b8585720-b967-4e9b-ade9-afd4ce86c0d0
+spec:
+  deployment:
+    checksum: {}
+    type: url
+    url: archive://functions-students-students-py-dTmD
+  environment:
+    name: python
+    namespace: ""
+  source:
+    checksum: {}
+status:
+  buildstatus: none
+  lastUpdateTimestamp: "2024-03-18T01:59:51Z"
+
+---
+apiVersion: fission.io/v1
+kind: Function
+metadata:
+  creationTimestamp: null
+  name: students
+spec:
+  InvokeStrategy:
+    ExecutionStrategy:
+      ExecutorType: poolmgr
+      MaxScale: 0
+      MinScale: 0
+      SpecializationTimeout: 120
+      TargetCPUPercent: 0
+    StrategyType: execution
+  concurrency: 500
+  configmaps:
+    - name: parameters
+      namespace: ""
+  environment:
+    name: python
+    namespace: ""
+  functionTimeout: 60
+  idletimeout: 120
+  package:
+    functionName: students.main
+    packageref:
+      name: students-b8585720-b967-4e9b-ade9-afd4ce86c0d0
+      namespace: ""
+  requestsPerPod: 1
+  resources: {}

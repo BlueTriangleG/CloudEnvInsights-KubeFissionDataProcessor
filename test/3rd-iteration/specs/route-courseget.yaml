@@ -1,0 +1,22 @@
+apiVersion: fission.io/v1
+kind: HTTPTrigger
+metadata:
+  creationTimestamp: null
+  name: courseget
+spec:
+  createingress: false
+  functionref:
+    functionweights: null
+    name: course
+    type: name
+  host: ""
+  ingressconfig:
+    annotations: null
+    host: '*'
+    path: /courses/{courseid:[0-9]+}
+    tls: ""
+  method: ""
+  methods:
+  - GET
+  prefix: ""
+  relativeurl: /courses/{courseid:[0-9]+}

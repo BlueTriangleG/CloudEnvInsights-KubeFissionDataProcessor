@@ -1,0 +1,9 @@
+ingress:
+  enabled: true
+  className: "nginx"
+  pathtype: ImplementationSpecific
+  annotations: {}
+  hosts:
+    - host: kibana-example.local
+      paths:
+        - path: /
