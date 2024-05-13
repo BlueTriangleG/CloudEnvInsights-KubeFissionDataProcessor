@@ -29,7 +29,7 @@ else:
 
 
 
-file_path = "data.json"
+file_path = "real_time_data.json"
 
 # record data
 with open(file_path, "w") as json_file:
