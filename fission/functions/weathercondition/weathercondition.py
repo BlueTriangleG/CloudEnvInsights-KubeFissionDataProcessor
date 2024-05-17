@@ -1,8 +1,16 @@
-# weathercondition/weathercondition.py
 import json
 import requests
 import pandas as pd
+from aiokafka import AIOKafkaProducer
+import asyncio
 
+async def publish(queue, payload):
+    producer = AIOKafkaProducer(bootstrap_servers='my-cluster-kafka-bootstrap.kafka.svc:9092')
+    await producer.start()
+    try:
+        await producer.send_and_wait(queue, payload)
+    finally:
+        await producer.stop()
 
 def main():
     def clean_weather_data(df, location_name):
@@ -13,23 +21,19 @@ def main():
         df_cleaned = df.drop(columns=columns_drop)
         df_cleaned['name'] = location_name
 
-        # 将 datetime 格式转换为 'YYYY-MM-DD-HH' 格式
         df_cleaned['local_date_time_full'] = pd.to_datetime(df_cleaned['local_date_time_full'], format='%Y%m%d%H%M%S')
         df_cleaned['local_date_time_full'] = df_cleaned['local_date_time_full'].dt.strftime('%Y-%m-%d-%H')
 
-        # 确保没有半个小时的数据出现
         if len(df_cleaned) > 1 and df_cleaned.iloc[0]['local_date_time_full'] != df_cleaned.iloc[1]['local_date_time_full']:
             df_cleaned = df_cleaned.drop(0)
         
         return df_cleaned
 
-    # 获取前两行数据
     def bom_first_two(realtime_df, location_name):
         first_two_rows = realtime_df.head(3)
         df = clean_weather_data(first_two_rows, location_name)
         return df
 
-    # 合并1小时数据
     def combine_1h(df):
         mask = df['local_date_time_full'].shift(-1) == df['local_date_time_full']
         rows_to_append = []
@@ -50,11 +54,9 @@ def main():
         processed_df = pd.DataFrame(rows_to_append, columns=df.columns)
         return processed_df
 
-    # 获取墨尔本和吉朗的天气数据
     bom_data_mel = requests.get('http://reg.bom.gov.au/fwo/IDV60901/IDV60901.95936.json').json()['observations']['data']
     bom_data_geelong = requests.get('http://reg.bom.gov.au/fwo/IDV60901/IDV60901.94857.json').json()['observations']['data']
 
-    # 分析数据
     df_mel = pd.DataFrame(bom_data_mel)
     df_geelong = pd.DataFrame(bom_data_geelong)
 
@@ -71,4 +73,8 @@ def main():
         }
     }
 
+    asyncio.run(publish('weather', json.dumps(result).encode('utf-8')))
     return json.dumps(result, ensure_ascii=False, indent=4)
+
+if __name__ == '__main__':
+    print(main())

@@ -1,17 +1,20 @@
-import logging, json
+import logging
+import json
+import requests
 from flask import current_app, request
 from elasticsearch8 import Elasticsearch
 
 def main():
-    client = Elasticsearch (
+    client = Elasticsearch(
         'https://elasticsearch-master.elastic.svc.cluster.local:9200',
-        verify_certs= False,
+        verify_certs=False,
         basic_auth=('elastic', 'elastic')
     )
 
-    current_app.logger.info(f'Observations to add:  {request.get_json(force=True)}')
+    observations = request.get_json(force=True)
+    current_app.logger.info(f'Observations to add: {observations}')
 
-    for obs in request.get_json(force=True):
+    for obs in observations:
         res = client.index(
             index='observations',
             id=f'{obs["stationid"]}-{obs["timestamp"]}',
