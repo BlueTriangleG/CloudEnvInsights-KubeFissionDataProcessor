@@ -1,28 +1,23 @@
-def read_handler(context, url: str):
+def read_handler(context):
     import json
     from elasticsearch import Elasticsearch
-    from datetime import datetime
+    
+    req = json.loads(context.request.body)
+    es_url = req.get('url')
+    data = req.get('data')
 
-    es = Elasticsearch([url])
+    es = Elasticsearch([es_url])
 
-    # read from URL
-    doc_id = context.request.args.get('id')
-    date_arg = context.request.args.get('date')  # 期望格式为 'YYYY-MM'
+    index_name = data.get('index', 'not_found_index')
+    doc_id = data.get('id', 'not_found_id')
 
-    # extract index
-    if date_arg:
-        year, month = date_arg.split('-')
-    else:
-        now = datetime.now()
-        year = now.strftime('%Y')
-        month = now.strftime('%m')
-    index_name = f"weather_conditions_{year}_{month}"
-
+    if index_name == 'not_found_index' or doc_id == 'not_found_id':
+        return json.dumps({"error": "Index or ID not found in data."})
+    
     # read
     try:
         response = es.get(index=index_name, id=doc_id)
-        return json.dumps({"result": "retrieved", "response": response['_source']})
+        return json.dumps({"result": "read", "response": response})
     except Exception as e:
         return json.dumps({"error": str(e)})
-
 
