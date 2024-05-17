@@ -1,0 +1,22 @@
+apiVersion: fission.io/v1
+kind: Environment
+metadata:
+  creationTimestamp: null
+  name: nodejs
+spec:
+  builder:
+    command: build
+    container:
+      name: ""
+      resources: {}
+    image: fission/node-builder
+  imagepullsecret: ""
+  keeparchive: false
+  poolsize: 3
+  resources: {}
+  runtime:
+    container:
+      name: ""
+      resources: {}
+    image: fission/node-env
+  version: 2
