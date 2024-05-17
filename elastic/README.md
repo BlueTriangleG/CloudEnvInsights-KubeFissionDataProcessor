@@ -1,25 +1,25 @@
-### FILE STRUCTURE
-# ./mapping
+# FILE STRUCTURE
+### ./mapping
 for all mappings and initialisations
-# ./crud
+### ./crud
 for create delete read and update basic methods
-# ./querying
+### ./querying
 for advanced query operations including merging ability
-# ./utils
+### ./utils
 for flask router and helper functions
-# ./example
+### ./example
 teacher's test example for localhost elastic search
 
-### CREATE INDEX (INITIALISATION)
-# main() have been implemented so that you can directly fission it by:
+# CREATE INDEX (INITIALISATION)
+### main() have been implemented so that you can directly fission it by:
 fission function update --name create_indexes --env python --code <genshin!>_mapping.py --method POST
-# using by post and passing context like this: (change it to real API)
+### using by post and passing context like this: (change it to real API)
 {"url": "http://local-elasticsearch:9200"}
-# whole POST command example here!
+### whole POST command example here!
 curl -X POST http://$FISSION_ROUTER/create-<what>-index -H "Content-Type: application/json" -d '{"url": "http://local-elasticsearch:9200"}'
 
-### USE CRUD
-# Create example
+# USE CRUD
+### Create example
 curl -X POST http://localhost:5000/create -H "Content-Type: application/json" -d '{
   "url": "http://localhost:9200",
   "data": {
@@ -29,7 +29,7 @@ curl -X POST http://localhost:5000/create -H "Content-Type: application/json" -d
     "location_name": "San Francisco"
   }
 }'
-# Delete example
+### Delete example
 curl -X POST http://localhost:5000/delete -H "Content-Type: application/json" -d '{
   "url": "http://localhost:9200",
   "data": {
@@ -37,7 +37,7 @@ curl -X POST http://localhost:5000/delete -H "Content-Type: application/json" -d
     "id": "1"
   }
 }'
-# Update example
+### Update example
 curl -X POST http://localhost:5000/update -H "Content-Type: application/json" -d '{
   "url": "http://localhost:9200",
   "data": {
@@ -50,7 +50,7 @@ curl -X POST http://localhost:5000/update -H "Content-Type: application/json" -d
     }
   }
 }'
-# Read example (in case you really needed for no reason)
+### Read example (in case you really needed for no reason)
 curl -X POST http://localhost:5000/read -H "Content-Type: application/json" -d '{
   "url": "http://localhost:9200",
   "data": {
