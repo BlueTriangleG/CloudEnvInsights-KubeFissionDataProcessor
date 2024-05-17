@@ -9,7 +9,7 @@ def create_air_quality_index(context):
     index_name = "airQuality"
     settings = {
         "settings": {
-            "number_of_shards": 1,
+            "number_of_shards": 3,
             "number_of_replicas": 1
         },
         "mappings": {
