@@ -1,0 +1,5 @@
+aiohttp
+requests
+textblob
+beautifulsoup4
+elasticsearch8
