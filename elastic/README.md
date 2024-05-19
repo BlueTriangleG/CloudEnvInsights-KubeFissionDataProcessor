@@ -81,7 +81,7 @@ curl script(e.g. invoke_create.sh):
     curl -X POST http://$FISSION_ROUTER_IP:$PORT/create -H "Content-Type: application/json" -d "$DATA"
 where $DATA is your environment getable json from $DATA_SOURCE_URL
 ### Deployment scriptsh
-tar -cvf invoke_create.tar invoke_create.sh data.json
+tar -cvf invoke_create.tar invoke_create.sh
 fission function create --name invoke-create --env binary --deploy invoke_create.tar --entrypoint "/bin/bash invoke_create.sh"
 ### Trigger(timer example)
 fission timer create --name periodic-invoke-create --cron "@every 1h" --function invoke-create
