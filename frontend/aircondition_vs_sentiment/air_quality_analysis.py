@@ -3,15 +3,17 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def categorize_air_quality(bmp2_5_value):
-    if bmp2_5_value <= 12:
+    if pd.isna(bmp2_5_value):
+        return 'No Data'
+    if bmp2_5_value <= 4:
         return 'Good'
-    elif bmp2_5_value <= 35.4:
+    elif bmp2_5_value <= 12:
         return 'Moderate'
-    elif bmp2_5_value <= 55.4:
+    elif bmp2_5_value <= 35:
         return 'Unhealthy for Sensitive Groups'
-    elif bmp2_5_value <= 150.4:
+    elif bmp2_5_value <= 55:
         return 'Unhealthy'
-    elif bmp2_5_value <= 250.4:
+    elif bmp2_5_value <= 150:
         return 'Very Unhealthy'
     else:
         return 'Hazardous'
@@ -23,12 +25,8 @@ def analyze_air_quality_impact(mastodon_df):
     grouped.columns = ['Air Quality Category', 'Average Sentiment']
     return grouped
 
-def analyze_weather_impact(mastodon_df):
-    weather_cols = ['matched_apparent_t', 'matched_delta_t', 'matched_gust_kmh', 'matched_air_temp', 'matched_dewpt', 'matched_press', 'matched_rel_hum', 'matched_wind_spd_kmh']
-    corr_matrix = mastodon_df[weather_cols + ['sentiment']].corr()
-    return corr_matrix
-
 def visualize_air_quality_impact(grouped):
+
     plt.figure(figsize=(10, 6))
     sns.barplot(x='Air Quality Category', y='Average Sentiment', data=grouped, palette="coolwarm")
     plt.title('Average Sentiment by Air Quality Category')
@@ -36,8 +34,21 @@ def visualize_air_quality_impact(grouped):
     plt.ylabel('Average Sentiment')
     plt.show()
 
-def visualize_weather_impact(corr_matrix):
-    plt.figure(figsize=(10, 8))
-    sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', fmt='.2f')
-    plt.title('Correlation Heatmap: Weather Conditions vs Sentiment')
+def plot_scatter(df):
+    plt.figure(figsize=(10, 6))
+    sns.scatterplot(x='matched_BMP2_5', y='sentiment', data=df, hue='air_quality_category', palette='coolwarm', alpha=0.6)
+    plt.title('Sentiment vs Air Quality (BMP2_5)')
+    plt.xlabel('BMP2_5')
+    plt.ylabel('Sentiment')
+    plt.legend(title='Air Quality Category')
     plt.show()
+
+def plot_heatmap(df):
+    heatmap_data = df.pivot_table(index='hour', columns='air_quality_category', values='sentiment', aggfunc='mean')
+    plt.figure(figsize=(12, 8))
+    sns.heatmap(heatmap_data, cmap='coolwarm', annot=True, fmt='.2f')
+    plt.title('Heatmap of Sentiment by Hour and Air Quality Category')
+    plt.xlabel('Air Quality Category')
+    plt.ylabel('Hour')
+    plt.show()
+
