@@ -57,15 +57,15 @@ def main(weather_path, air_path):
 
     # Plot PM2.5 over time by date with months displayed on x-axis
     plt.figure(figsize=(12, 6))
-    sns.lineplot(x='date', y='BMP2_5', data=df_cleaned, marker='o')
+    sns.lineplot(x='date', y='BPM2_5', data=df_cleaned, marker='o')
     plt.xticks(ticks=df_cleaned['date'], labels=df_cleaned['month_day'], rotation=45)
     plt.title('PM2.5 Over Time by Date (Months Displayed)')
     plt.xlabel('Month-Day')
-    plt.ylabel('BMP2_5')
+    plt.ylabel('BPM2_5')
     plt.show()
 
     # Filter DataFrame to keep only relevant columns for analysis
-    columns_to_keep = ['apparent_t', 'delta_t', 'gust_kmh', 'gust_kt', 'air_temp', 'dewpt', 'press', 'press_qnh', 'press_msl', 'rel_hum', 'wind_spd_kmh', 'wind_spd_kt', 'BMP2_5']
+    columns_to_keep = ['apparent_t', 'delta_t', 'gust_kmh', 'gust_kt', 'air_temp', 'dewpt', 'press', 'press_qnh', 'press_msl', 'rel_hum', 'wind_spd_kmh', 'wind_spd_kt', 'BPM2_5']
     filtered_df = df_cleaned[columns_to_keep]
 
     # Plot the correlation matrix
@@ -76,8 +76,8 @@ def main(weather_path, air_path):
     plt.show()
 
     # Prepare data for model training
-    X = df_cleaned.drop(columns=['BMP2_5', 'local_date_time_full', 'date', 'month_day', 'wind_dir'])  # Feature variables
-    y = df_cleaned['BMP2_5']  # Target variable
+    X = df_cleaned.drop(columns=['BPM2_5', 'local_date_time_full', 'date', 'month_day', 'wind_dir'])  # Feature variables
+    y = df_cleaned['BPM2_5']  # Target variable
 
     # Split the data into training and testing sets
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)

@@ -15,7 +15,7 @@ def load_pm25_data(file_path):
         records.append({
             'datetime_local': source['datetime_local'],
             'location_name': source['location_name'],
-            'BMP2_5': source['BMP2_5']
+            'BPM2_5': source['BPM2_5']
         })
     
     pm25_df = pd.DataFrame(records)
@@ -30,7 +30,7 @@ def visualize_pm25(pm25_df):
     daily_avg_pm25 = pm25_df.resample('H').mean()
     
     plt.figure(figsize=(14, 7))
-    sns.lineplot(x=daily_avg_pm25.index, y=daily_avg_pm25['BMP2_5'], marker='o')
+    sns.lineplot(x=daily_avg_pm25.index, y=daily_avg_pm25['BPM2_5'], marker='o')
     plt.title('Daily PM2.5 Levels')
     plt.xlabel('Time')
     plt.ylabel('PM2.5')

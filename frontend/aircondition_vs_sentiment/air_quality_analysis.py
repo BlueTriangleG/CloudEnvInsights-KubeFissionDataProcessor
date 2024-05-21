@@ -19,7 +19,7 @@ def categorize_air_quality(bmp2_5_value):
         return 'Hazardous'
 
 def analyze_air_quality_impact(mastodon_df):
-    mastodon_df['air_quality_category'] = mastodon_df['matched_BMP2_5'].apply(categorize_air_quality)
+    mastodon_df['air_quality_category'] = mastodon_df['matched_BPM2_5'].apply(categorize_air_quality)
     grouped = mastodon_df.groupby('air_quality_category').agg({'sentiment': 'mean'}).reset_index()
     grouped.columns = ['Air Quality Category', 'Average Sentiment']
     return grouped
@@ -34,9 +34,9 @@ def visualize_air_quality_impact(grouped):
 
 def plot_scatter(df):
     plt.figure(figsize=(10, 6))
-    sns.scatterplot(x='matched_BMP2_5', y='sentiment', data=df, hue='air_quality_category', palette='coolwarm', alpha=0.6)
-    plt.title('Sentiment vs Air Quality (BMP2_5)')
-    plt.xlabel('BMP2_5')
+    sns.scatterplot(x='matched_BPM2_5', y='sentiment', data=df, hue='air_quality_category', palette='coolwarm', alpha=0.6)
+    plt.title('Sentiment vs Air Quality (BPM2_5)')
+    plt.xlabel('BPM2_5')
     plt.ylabel('Sentiment')
     plt.legend(title='Air Quality Category')
     plt.show()
