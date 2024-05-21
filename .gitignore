@@ -1,5 +1,14 @@
 # Ignore all Java files
+*.java
+
+# Ignore all JSON files
 *.json
 
 # Ignore .DS_Store files
 .DS_Store
+
+# Ignore all Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
