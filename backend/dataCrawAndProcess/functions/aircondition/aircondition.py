@@ -43,11 +43,11 @@ def main():
             verify_certs=False
         )
         
-        bmp2_5 = data[2]
+        bpm2_5 = data[2]
         datetime_local = data[0]
         location_name = data[1]
         document = {
-            "BMP2_5": bmp2_5,
+            "BPM2_5": bpm2_5,
             "datetime_local": datetime_local,
             "location_name": location_name
         }

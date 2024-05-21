@@ -9,8 +9,9 @@ curl -X PUT -k 'https://127.0.0.1:9200/aircondition' \
         }
     },
     "mappings": {
+        "dynamic": "strict",
         "properties": {
-            "BMP2_5": {
+            "BPM2_5": {
               "type": "float"
             },
             "datetime_local": {
