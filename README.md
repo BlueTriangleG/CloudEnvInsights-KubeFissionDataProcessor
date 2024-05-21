@@ -1,5 +1,3 @@
-# comp90024
-
 ## Introduction to our project
 
 This project designs and implements a cloud data processing system based on Kubernetes and Fission framework on the OpenStack server platform. This system can automatically crawl and process raw real-time data through Fission Trigger, and store and manage it via Elasticsearch. 
@@ -32,3 +30,11 @@ This project code mainly consists of these structures as follows:
   - The frontend folder contains our data extraction code and data analysis code. It is the main location of our system to display the results. Jupyter notebook is used to implement the frontend function.
 - test
   - The test folder contains mostly test scripts for our teammates our system.
+
+## Contributer
+
+GaoyuanHao
+Jinuo Sun
+Yulin Dong
+Jin Wang
+Zihan Xu
