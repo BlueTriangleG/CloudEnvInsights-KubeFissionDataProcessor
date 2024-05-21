@@ -14,8 +14,8 @@ The functions will hold the fission functions for this function block, and the s
 
 In this code mainly stores the data crawler, which mainly crawls data from 3 data sources:
 
-1. aircondition is a function that crawls Melbourne's current bpm2.5. 2. mastodon-aus-social is a function that crawls the chat logs in the aus section of mastodon.
-2. mastodon-aus-social This function is mainly used to crawl the chat logs of aus area in mastodon. 3. weathercondition This function is mainly used to crawl the latest weather data of Melbourne.
+1. aircondition is a function that crawls Melbourne's current bpm2.5.
+2. mastodon-aus-social This function is mainly used to crawl the chat logs of aus area in mastodon. 
 3. weathercondition This function is mainly used to crawl the latest weather data of Melbourne for subsequent data analysis.
 
 ### apiInterface
