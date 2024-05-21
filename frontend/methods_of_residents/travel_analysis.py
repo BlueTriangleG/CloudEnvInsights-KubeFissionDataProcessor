@@ -4,7 +4,7 @@ import re
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# 定义出行方式关键字
+# define travel modes and their keywords
 travel_modes = {
     'car': ['car', 'automobile', 'vehicle'],
     'bus': ['bus', 'coach'],
@@ -23,16 +23,16 @@ def load_mastodon_data(file_path):
         source = record['_source']
         location = None
         for tag in source.get('tags', []):
-            if tag.lower() in ['melbourne', 'sydney', 'brisbane']:  # 添加希望识别的地名
+            if tag.lower() in ['melbourne', 'sydney', 'brisbane', 'adelaide']: 
                 location = tag.lower().capitalize()
                 break
         if not location:
-            location = 'Around Australia'  # 如果未找到标签，则设置为 'Unknown'
+            location = 'Around Australia'
         
         records.append({
             'post_id': source['id'],
             'created_at': source['created_at'],
-            'tokens': source['tokens'],  # 使用 tokens 字段
+            'tokens': source['tokens'],  
             'tags': source['tags'],
             'location': location
         })
@@ -57,14 +57,14 @@ def extract_travel_modes(tokens):
     return modes
 
 def analyze_travel_modes(mastodon_df):
-    # 提取出行方式
+    # extract travel modes from tokens
     mastodon_df['travel_modes'] = mastodon_df['tokens'].apply(extract_travel_modes)
     mastodon_df = mastodon_df.explode('travel_modes')
     
-    # 按地区和出行方式统计
+    # count the occurrences of each travel mode
     travel_stats = mastodon_df.groupby(['location', 'travel_modes']).size().reset_index(name='counts')
     
-    # 找出每个地区最流行的出行方式
+    # find the most popular travel mode in each location
     most_popular_travel_modes = travel_stats.loc[travel_stats.groupby('location')['counts'].idxmax()]
     
     return travel_stats, most_popular_travel_modes

@@ -8,7 +8,7 @@ def load_weather_data(file_path):
     with open(file_path, 'r') as f:
         weather_data = json.load(f)
     
-    # 提取需要的数据
+    # get the required data
     records = []
     for record in weather_data:
         source = record['_source']
@@ -34,7 +34,7 @@ def load_weather_data(file_path):
     weather_df = pd.DataFrame(records)
     weather_df['datetime'] = pd.to_datetime(weather_df['datetime'], format='%Y-%m-%d-%H')
     
-    # 检查时区信息并进行转换
+    # check the timezone information and convert if necessary
     if weather_df['datetime'].dt.tz is None:
         weather_df['datetime'] = weather_df['datetime'].dt.tz_localize('UTC')
     else:
@@ -46,20 +46,19 @@ def load_mastodon_data(file_path):
     with open(file_path, 'r') as f:
         mastodon_data = json.load(f)
     
-    # 提取需要的数据
+    # get the required data
     records = []
     for record in mastodon_data:
         source = record['_source']
         location = None
-        # 从 tags 中提取地理位置信息（假设 tags 包含地名）
+        # get the location information from tags
         for tag in source.get('tags', []):
-            if tag.lower() in ['melbourne', 'sydney', 'brisbane']:  # 添加你希望识别的地名
+            if tag.lower() in ['melbourne', 'sydney', 'brisbane', 'adelaide']:
                 location = tag.lower().capitalize()
                 break
         if not location:
-            location = 'Melbourne'  # 默认设置为 "Melbourne"
+            location = 'Melbourne'  # default location
         
-        # 将所有 Melbourne 转换为 Melbourne CBD
         if location == 'Melbourne':
             location = 'Melbourne CBD'
         
@@ -70,14 +69,14 @@ def load_mastodon_data(file_path):
             'sentiment': source['sentiment'],
             'tokens': source['tokens'],
             'tags': source['tags'],
-            'location': location  # 新增的地理位置信息
+            'location': location  
         })
     
     mastodon_df = pd.DataFrame(records)
     mastodon_df['created_at'] = pd.to_datetime(mastodon_df['created_at'])
-    mastodon_df['hour'] = mastodon_df['created_at'].dt.hour  # 提取小时信息
+    mastodon_df['hour'] = mastodon_df['created_at'].dt.hour 
     
-    # 检查时区信息并进行转换
+    # check the timezone information and convert if necessary
     if mastodon_df['created_at'].dt.tz is None:
         mastodon_df['created_at'] = mastodon_df['created_at'].dt.tz_localize('UTC')
     else:
@@ -94,18 +93,18 @@ def match_data(row, data, time_col, location_col, time_window):
         (data[location_col] == row['location'])
     ]
     if not matched_data.empty:
-        return matched_data.iloc[0].to_dict()  # 返回字典形式
+        return matched_data.iloc[0].to_dict()  
     return None
 
 def merge_weather_data(mastodon_df, weather_data):
     matched_weather = mastodon_df.apply(lambda row: match_data(row, weather_data, 'datetime', 'location', 1), axis=1)
-    matched_weather = matched_weather.dropna()  # 移除 None 值
+    matched_weather = matched_weather.dropna()
     if not matched_weather.empty:
-        matched_weather_df = pd.DataFrame(matched_weather.tolist())  # 转换为 DataFrame
+        matched_weather_df = pd.DataFrame(matched_weather.tolist()) 
         matched_weather_df.columns = ['matched_' + str(col) for col in matched_weather_df.columns]
         merged_df = pd.concat([mastodon_df.reset_index(drop=True), matched_weather_df.reset_index(drop=True)], axis=1)
     else:
-        # 如果没有匹配到任何天气数据，则返回空的 DataFrame
+        # if no matched data found
         merged_df = mastodon_df.copy()
         for col in weather_data.columns:
             merged_df['matched_' + str(col)] = None

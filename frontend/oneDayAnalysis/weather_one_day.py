@@ -3,12 +3,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import json
 
-# 加载天气数据
 def load_weather_data(file_path):
     with open(file_path, 'r') as f:
         weather_data = json.load(f)
     
-    # 提取需要的数据
     records = []
     for record in weather_data:
         source = record['_source']
@@ -28,11 +26,10 @@ def load_weather_data(file_path):
     
     return weather_df
 
-# 可视化天气数据
 def visualize_weather_data(weather_df):
     plt.figure(figsize=(14, 10))
     
-    # 绘制气温变化
+    # temperature change
     plt.subplot(3, 1, 1)
     sns.lineplot(data=weather_df, x=weather_df.index, y='air_temp', marker='o', label='Air Temp (°C)')
     sns.lineplot(data=weather_df, x=weather_df.index, y='apparent_t', marker='o', label='Apparent Temp (°C)')
@@ -42,7 +39,7 @@ def visualize_weather_data(weather_df):
     plt.legend()
     plt.grid(True)
     
-    # 绘制相对湿度变化
+    # relative humidity change
     plt.subplot(3, 1, 2)
     sns.lineplot(data=weather_df, x=weather_df.index, y='rel_hum', marker='o', color='b')
     plt.title('Relative Humidity Over Time')
@@ -50,7 +47,7 @@ def visualize_weather_data(weather_df):
     plt.ylabel('Relative Humidity (%)')
     plt.grid(True)
     
-    # 绘制风速变化
+    # wind speed change
     plt.subplot(3, 1, 3)
     sns.lineplot(data=weather_df, x=weather_df.index, y='wind_spd_kmh', marker='o', color='g')
     plt.title('Wind Speed Over Time')

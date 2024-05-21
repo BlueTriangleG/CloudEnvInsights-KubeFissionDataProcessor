@@ -3,12 +3,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import json
 
-# 加载 PM2.5 数据
+# load PM2.5 data
 def load_pm25_data(file_path):
     with open(file_path, 'r') as f:
         pm25_data = json.load(f)
     
-    # 提取需要的数据
     records = []
     for record in pm25_data:
         source = record['_source']
@@ -24,9 +23,8 @@ def load_pm25_data(file_path):
     
     return pm25_df
 
-# 可视化 PM2.5 数据
+# vidualize PM2.5 data
 def visualize_pm25(pm25_df):
-    # 按天和小时进行平均
     daily_avg_pm25 = pm25_df.resample('H').mean()
     
     plt.figure(figsize=(14, 7))
