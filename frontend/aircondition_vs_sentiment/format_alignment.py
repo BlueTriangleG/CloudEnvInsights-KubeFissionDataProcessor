@@ -12,7 +12,7 @@ def load_air_quality_data(file_path):
         records.append({
             'datetime_local': source['datetime_local'],
             'location_name': source['location_name'],
-            'BMP2_5': source['BMP2_5']
+            'BPM2_5': source['BPM2_5']
         })
     
     air_quality_df = pd.DataFrame(records)
