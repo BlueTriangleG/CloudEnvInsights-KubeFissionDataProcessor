@@ -2,7 +2,7 @@ import pandas as pd
 import travel_analysis
 
 # 加载 Mastodon 数据
-mastodon_file_path = '../realtimeData/output_formatted.json'
+mastodon_file_path = '../realtimeData/mastodon-aus-social.json'
 mastodon_df = travel_analysis.load_mastodon_data(mastodon_file_path)
 
 # 分析出行方式
@@ -13,4 +13,4 @@ print(travel_stats)
 print(most_popular_travel_modes)
 
 # 可视化结果
-travel_analysis.visualize_travel_modes(travel_stats)
+travel_analysis.visualize_travel_modes_by_city(travel_stats)
