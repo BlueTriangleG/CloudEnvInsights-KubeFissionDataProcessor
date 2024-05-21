@@ -1,0 +1,2872 @@
+[
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-19-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 7.740714285714288,
+            "datetime_local": "2024-05-18-19",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-01-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.7878571428571424,
+            "datetime_local": "2024-05-19-01",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-03-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.352857142857143,
+            "datetime_local": "2024-05-19-03",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-04-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.408571428571429,
+            "datetime_local": "2024-05-19-04",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-06-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.4564285714285714,
+            "datetime_local": "2024-05-19-06",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-08-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.757142857142857,
+            "datetime_local": "2024-05-19-08",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-10-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.743571428571428,
+            "datetime_local": "2024-05-19-10",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-19-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.307857142857143,
+            "datetime_local": "2024-05-19-19",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-20-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 1.8942857142857144,
+            "datetime_local": "2024-05-19-20",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-23-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.302857142857143,
+            "datetime_local": "2024-05-19-23",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-20-00-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.724285714285714,
+            "datetime_local": "2024-05-20-00",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-20-02-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.9658333333333338,
+            "datetime_local": "2024-05-20-02",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-14-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 18.481428571428577,
+            "datetime_local": "2024-05-18-14",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 15.801538461538463,
+            "datetime_local": "2024-05-18-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-16-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 12.712727272727271,
+            "datetime_local": "2024-05-18-16",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-17-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 11.111428571428572,
+            "datetime_local": "2024-05-18-17",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-18-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.258571428571427,
+            "datetime_local": "2024-05-18-18",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-22-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.732857142857144,
+            "datetime_local": "2024-05-18-22",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-00-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.4214285714285713,
+            "datetime_local": "2024-05-19-00",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-07-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.645714285714285,
+            "datetime_local": "2024-05-19-07",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-11-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.4192857142857145,
+            "datetime_local": "2024-05-19-11",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-12-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.592142857142858,
+            "datetime_local": "2024-05-19-12",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-21-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.585,
+            "datetime_local": "2024-05-19-21",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-20-01-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.6992857142857147,
+            "datetime_local": "2024-05-20-01",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-20-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.6257142857142854,
+            "datetime_local": "2024-05-18-20",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-02-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.8064285714285715,
+            "datetime_local": "2024-05-19-02",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-05-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.7600000000000007,
+            "datetime_local": "2024-05-19-05",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-09-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.697857142857144,
+            "datetime_local": "2024-05-19-09",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-18-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.16,
+            "datetime_local": "2024-05-19-18",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-22-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.3778571428571427,
+            "datetime_local": "2024-05-19-22",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-16-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 18.818,
+            "datetime_local": "2024-05-13-16",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 15.612,
+            "datetime_local": "2024-05-13-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-14-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 17.918,
+            "datetime_local": "2024-05-13-14",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-13-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 14.764,
+            "datetime_local": "2024-05-13-13",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-12-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 15.707,
+            "datetime_local": "2024-05-13-12",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-11-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 17.259,
+            "datetime_local": "2024-05-13-11",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-10-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 18.441,
+            "datetime_local": "2024-05-13-10",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-09-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 12.177,
+            "datetime_local": "2024-05-13-09",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-08-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 13.182,
+            "datetime_local": "2024-05-13-08",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-07-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 14.893,
+            "datetime_local": "2024-05-13-07",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-06-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 9.427,
+            "datetime_local": "2024-05-13-06",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-05-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 10.341,
+            "datetime_local": "2024-05-13-05",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-04-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 12.097,
+            "datetime_local": "2024-05-13-04",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-03-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 15.163,
+            "datetime_local": "2024-05-13-03",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-02-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 15.993,
+            "datetime_local": "2024-05-13-02",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-01-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.446,
+            "datetime_local": "2024-05-13-01",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-01-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.446,
+            "datetime_local": "2024-05-13-01",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-01-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.446,
+            "datetime_local": "2024-05-13-01",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-13-00-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 10.308,
+            "datetime_local": "2024-05-13-00",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-12-23-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 11.534,
+            "datetime_local": "2024-05-12-23",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-12-22-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 15.666,
+            "datetime_local": "2024-05-12-22",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-12-21-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 12.174,
+            "datetime_local": "2024-05-12-21",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-12-20-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 15.238,
+            "datetime_local": "2024-05-12-20",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-12-19-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 14.627,
+            "datetime_local": "2024-05-12-19",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-12-18-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 15.277,
+            "datetime_local": "2024-05-12-18",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-12-17-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 16.283,
+            "datetime_local": "2024-05-12-17",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-12-16-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 17.068,
+            "datetime_local": "2024-05-12-16",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-12-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 11.892,
+            "datetime_local": "2024-05-12-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-12-14-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 11.25,
+            "datetime_local": "2024-05-12-14",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-12-13-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 16.726,
+            "datetime_local": "2024-05-12-13",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-12-12-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 26.768,
+            "datetime_local": "2024-05-12-12",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-12-11-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 36.151,
+            "datetime_local": "2024-05-12-11",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-19-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.084,
+            "datetime_local": "2024-05-17-19",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-19-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.084,
+            "datetime_local": "2024-05-17-19",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-19-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.084,
+            "datetime_local": "2024-05-17-19",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-18-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.237,
+            "datetime_local": "2024-05-17-18",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-18-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.237,
+            "datetime_local": "2024-05-17-18",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-18-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.237,
+            "datetime_local": "2024-05-17-18",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-17-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.545,
+            "datetime_local": "2024-05-17-17",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-17-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.545,
+            "datetime_local": "2024-05-17-17",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-17-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.545,
+            "datetime_local": "2024-05-17-17",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-16-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.784,
+            "datetime_local": "2024-05-17-16",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-16-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.784,
+            "datetime_local": "2024-05-17-16",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-16-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.784,
+            "datetime_local": "2024-05-17-16",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -0.717,
+            "datetime_local": "2024-05-17-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -0.717,
+            "datetime_local": "2024-05-17-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -0.717,
+            "datetime_local": "2024-05-17-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -0.717,
+            "datetime_local": "2024-05-17-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -0.717,
+            "datetime_local": "2024-05-17-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -0.717,
+            "datetime_local": "2024-05-17-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -0.717,
+            "datetime_local": "2024-05-17-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -0.717,
+            "datetime_local": "2024-05-17-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -0.717,
+            "datetime_local": "2024-05-17-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-14-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.251,
+            "datetime_local": "2024-05-17-14",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-14-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.251,
+            "datetime_local": "2024-05-17-14",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-14-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.251,
+            "datetime_local": "2024-05-17-14",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-13-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.534,
+            "datetime_local": "2024-05-17-13",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-13-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.534,
+            "datetime_local": "2024-05-17-13",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-13-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.534,
+            "datetime_local": "2024-05-17-13",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-12-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.023,
+            "datetime_local": "2024-05-17-12",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-12-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.023,
+            "datetime_local": "2024-05-17-12",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-12-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.023,
+            "datetime_local": "2024-05-17-12",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-11-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.849,
+            "datetime_local": "2024-05-17-11",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-11-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.849,
+            "datetime_local": "2024-05-17-11",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-11-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.849,
+            "datetime_local": "2024-05-17-11",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-10-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.19,
+            "datetime_local": "2024-05-17-10",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-10-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.19,
+            "datetime_local": "2024-05-17-10",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-10-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.19,
+            "datetime_local": "2024-05-17-10",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-09-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.451,
+            "datetime_local": "2024-05-17-09",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-09-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.451,
+            "datetime_local": "2024-05-17-09",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-09-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.451,
+            "datetime_local": "2024-05-17-09",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-08-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.011,
+            "datetime_local": "2024-05-17-08",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-08-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.011,
+            "datetime_local": "2024-05-17-08",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-08-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.011,
+            "datetime_local": "2024-05-17-08",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-07-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -1.418,
+            "datetime_local": "2024-05-17-07",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-07-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -1.418,
+            "datetime_local": "2024-05-17-07",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-07-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -1.418,
+            "datetime_local": "2024-05-17-07",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-06-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.572,
+            "datetime_local": "2024-05-17-06",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-06-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.572,
+            "datetime_local": "2024-05-17-06",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-06-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.572,
+            "datetime_local": "2024-05-17-06",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-05-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.319,
+            "datetime_local": "2024-05-17-05",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-05-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.319,
+            "datetime_local": "2024-05-17-05",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-05-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.319,
+            "datetime_local": "2024-05-17-05",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-04-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -1.226,
+            "datetime_local": "2024-05-17-04",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-04-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -1.226,
+            "datetime_local": "2024-05-17-04",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-04-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -1.226,
+            "datetime_local": "2024-05-17-04",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-03-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.814,
+            "datetime_local": "2024-05-17-03",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-03-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.814,
+            "datetime_local": "2024-05-17-03",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-03-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.814,
+            "datetime_local": "2024-05-17-03",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-02-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 0.573,
+            "datetime_local": "2024-05-17-02",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-02-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 0.573,
+            "datetime_local": "2024-05-17-02",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-02-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 0.573,
+            "datetime_local": "2024-05-17-02",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-01-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.75,
+            "datetime_local": "2024-05-17-01",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-01-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.75,
+            "datetime_local": "2024-05-17-01",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-01-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.75,
+            "datetime_local": "2024-05-17-01",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-00-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 1.393,
+            "datetime_local": "2024-05-17-00",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-00-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 1.393,
+            "datetime_local": "2024-05-17-00",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-00-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 1.393,
+            "datetime_local": "2024-05-17-00",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-23-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -0.654,
+            "datetime_local": "2024-05-16-23",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-23-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -0.654,
+            "datetime_local": "2024-05-16-23",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-23-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -0.654,
+            "datetime_local": "2024-05-16-23",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-22-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.368,
+            "datetime_local": "2024-05-16-22",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-22-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.368,
+            "datetime_local": "2024-05-16-22",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-22-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.368,
+            "datetime_local": "2024-05-16-22",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-21-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.025,
+            "datetime_local": "2024-05-16-21",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-21-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.025,
+            "datetime_local": "2024-05-16-21",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-20-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.677,
+            "datetime_local": "2024-05-16-20",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-20-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.677,
+            "datetime_local": "2024-05-16-20",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-19-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.803,
+            "datetime_local": "2024-05-16-19",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-19-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.803,
+            "datetime_local": "2024-05-16-19",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-18-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.767,
+            "datetime_local": "2024-05-16-18",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-18-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.767,
+            "datetime_local": "2024-05-16-18",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-17-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.616,
+            "datetime_local": "2024-05-16-17",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-17-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.616,
+            "datetime_local": "2024-05-16-17",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-16-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 1.089,
+            "datetime_local": "2024-05-16-16",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-16-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 1.089,
+            "datetime_local": "2024-05-16-16",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.158,
+            "datetime_local": "2024-05-16-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.158,
+            "datetime_local": "2024-05-16-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-14-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.389,
+            "datetime_local": "2024-05-16-14",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-14-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.389,
+            "datetime_local": "2024-05-16-14",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-13-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.541,
+            "datetime_local": "2024-05-16-13",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-13-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.541,
+            "datetime_local": "2024-05-16-13",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-12-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 12.124,
+            "datetime_local": "2024-05-16-12",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-12-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 12.124,
+            "datetime_local": "2024-05-16-12",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-11-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.104,
+            "datetime_local": "2024-05-16-11",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-11-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.104,
+            "datetime_local": "2024-05-16-11",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-10-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.167,
+            "datetime_local": "2024-05-16-10",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-10-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.167,
+            "datetime_local": "2024-05-16-10",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-09-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.155,
+            "datetime_local": "2024-05-16-09",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-09-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.155,
+            "datetime_local": "2024-05-16-09",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-08-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.217,
+            "datetime_local": "2024-05-16-08",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-08-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.217,
+            "datetime_local": "2024-05-16-08",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-07-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.884,
+            "datetime_local": "2024-05-16-07",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-07-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.884,
+            "datetime_local": "2024-05-16-07",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-06-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.002,
+            "datetime_local": "2024-05-16-06",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-06-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.002,
+            "datetime_local": "2024-05-16-06",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-05-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.137,
+            "datetime_local": "2024-05-16-05",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-05-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.137,
+            "datetime_local": "2024-05-16-05",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-04-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -0.872,
+            "datetime_local": "2024-05-16-04",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-04-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -0.872,
+            "datetime_local": "2024-05-16-04",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-03-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.052,
+            "datetime_local": "2024-05-16-03",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-03-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.052,
+            "datetime_local": "2024-05-16-03",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-02-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.823,
+            "datetime_local": "2024-05-16-02",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-02-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.823,
+            "datetime_local": "2024-05-16-02",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-01-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.851,
+            "datetime_local": "2024-05-16-01",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-01-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.851,
+            "datetime_local": "2024-05-16-01",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-00-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -1.576,
+            "datetime_local": "2024-05-16-00",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-16-00-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -1.576,
+            "datetime_local": "2024-05-16-00",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-23-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.507,
+            "datetime_local": "2024-05-15-23",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-23-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.507,
+            "datetime_local": "2024-05-15-23",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-22-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.593,
+            "datetime_local": "2024-05-15-22",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-22-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.593,
+            "datetime_local": "2024-05-15-22",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-21-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.174,
+            "datetime_local": "2024-05-15-21",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-21-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.174,
+            "datetime_local": "2024-05-15-21",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-20-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.926,
+            "datetime_local": "2024-05-15-20",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-20-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.926,
+            "datetime_local": "2024-05-15-20",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-19-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 0.34,
+            "datetime_local": "2024-05-15-19",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-19-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 0.34,
+            "datetime_local": "2024-05-15-19",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-18-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 0.554,
+            "datetime_local": "2024-05-15-18",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-18-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 0.554,
+            "datetime_local": "2024-05-15-18",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-17-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -1.223,
+            "datetime_local": "2024-05-15-17",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-17-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -1.223,
+            "datetime_local": "2024-05-15-17",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-16-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.058,
+            "datetime_local": "2024-05-15-16",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-16-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.058,
+            "datetime_local": "2024-05-15-16",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.978,
+            "datetime_local": "2024-05-15-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-14-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.982,
+            "datetime_local": "2024-05-15-14",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-13-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 0.31,
+            "datetime_local": "2024-05-15-13",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-12-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.59,
+            "datetime_local": "2024-05-15-12",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-11-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.427,
+            "datetime_local": "2024-05-15-11",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-10-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.213,
+            "datetime_local": "2024-05-15-10",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-09-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.229,
+            "datetime_local": "2024-05-15-09",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-08-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.792,
+            "datetime_local": "2024-05-15-08",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-07-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.575,
+            "datetime_local": "2024-05-15-07",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-06-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.986,
+            "datetime_local": "2024-05-15-06",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-05-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.374,
+            "datetime_local": "2024-05-15-05",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-04-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.812,
+            "datetime_local": "2024-05-15-04",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-03-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -0.508,
+            "datetime_local": "2024-05-15-03",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-02-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.117,
+            "datetime_local": "2024-05-15-02",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-01-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.258,
+            "datetime_local": "2024-05-15-01",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-15-00-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -0.054,
+            "datetime_local": "2024-05-15-00",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-14-23-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.154,
+            "datetime_local": "2024-05-14-23",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-14-22-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.131,
+            "datetime_local": "2024-05-14-22",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-14-21-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.137,
+            "datetime_local": "2024-05-14-21",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.877,
+            "datetime_local": "2024-05-18-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.877,
+            "datetime_local": "2024-05-18-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-14-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.811,
+            "datetime_local": "2024-05-18-14",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-14-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.811,
+            "datetime_local": "2024-05-18-14",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-13-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.379,
+            "datetime_local": "2024-05-18-13",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-13-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.379,
+            "datetime_local": "2024-05-18-13",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-12-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.923,
+            "datetime_local": "2024-05-18-12",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-12-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.923,
+            "datetime_local": "2024-05-18-12",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-11-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.592,
+            "datetime_local": "2024-05-18-11",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-11-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.592,
+            "datetime_local": "2024-05-18-11",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-10-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 12.666,
+            "datetime_local": "2024-05-18-10",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-10-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 12.666,
+            "datetime_local": "2024-05-18-10",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-09-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.746,
+            "datetime_local": "2024-05-18-09",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-09-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.746,
+            "datetime_local": "2024-05-18-09",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-08-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 7.715,
+            "datetime_local": "2024-05-18-08",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-08-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 7.715,
+            "datetime_local": "2024-05-18-08",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-07-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 1.112,
+            "datetime_local": "2024-05-18-07",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-07-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 1.112,
+            "datetime_local": "2024-05-18-07",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-06-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.925,
+            "datetime_local": "2024-05-18-06",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-06-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.925,
+            "datetime_local": "2024-05-18-06",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-05-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 1.228,
+            "datetime_local": "2024-05-18-05",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-05-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 1.228,
+            "datetime_local": "2024-05-18-05",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-04-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 0.552,
+            "datetime_local": "2024-05-18-04",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-04-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 0.552,
+            "datetime_local": "2024-05-18-04",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-03-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.136,
+            "datetime_local": "2024-05-18-03",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-03-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.136,
+            "datetime_local": "2024-05-18-03",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-02-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 1.691,
+            "datetime_local": "2024-05-18-02",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-02-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 1.691,
+            "datetime_local": "2024-05-18-02",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-01-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 10.153,
+            "datetime_local": "2024-05-18-01",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-01-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 10.153,
+            "datetime_local": "2024-05-18-01",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-00-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.156,
+            "datetime_local": "2024-05-18-00",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-00-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.156,
+            "datetime_local": "2024-05-18-00",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-23-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.5,
+            "datetime_local": "2024-05-17-23",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-23-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.5,
+            "datetime_local": "2024-05-17-23",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-22-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -1.317,
+            "datetime_local": "2024-05-17-22",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-22-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": -1.317,
+            "datetime_local": "2024-05-17-22",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-21-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.338,
+            "datetime_local": "2024-05-17-21",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-21-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.338,
+            "datetime_local": "2024-05-17-21",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-20-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 11.373,
+            "datetime_local": "2024-05-17-20",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-17-20-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 11.373,
+            "datetime_local": "2024-05-17-20",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-21-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.163,
+            "datetime_local": "2024-05-19-21",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-20-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 10.978,
+            "datetime_local": "2024-05-19-20",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-19-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 9.527,
+            "datetime_local": "2024-05-19-19",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-18-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.896,
+            "datetime_local": "2024-05-19-18",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-17-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 10.991,
+            "datetime_local": "2024-05-19-17",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-16-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.982,
+            "datetime_local": "2024-05-19-16",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-15-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.572,
+            "datetime_local": "2024-05-19-15",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-14-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.968,
+            "datetime_local": "2024-05-19-14",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-14-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 6.968,
+            "datetime_local": "2024-05-19-14",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-13-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.461,
+            "datetime_local": "2024-05-19-13",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-13-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.461,
+            "datetime_local": "2024-05-19-13",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-13-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.461,
+            "datetime_local": "2024-05-19-13",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-13-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.461,
+            "datetime_local": "2024-05-19-13",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-12-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 7.172,
+            "datetime_local": "2024-05-19-12",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-11-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 14.462,
+            "datetime_local": "2024-05-19-11",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-10-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 9.718,
+            "datetime_local": "2024-05-19-10",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-09-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 12.219,
+            "datetime_local": "2024-05-19-09",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-08-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 15.694,
+            "datetime_local": "2024-05-19-08",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-07-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.093,
+            "datetime_local": "2024-05-19-07",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-06-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.859,
+            "datetime_local": "2024-05-19-06",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-05-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 1.955,
+            "datetime_local": "2024-05-19-05",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-04-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 1.526,
+            "datetime_local": "2024-05-19-04",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-03-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.781,
+            "datetime_local": "2024-05-19-03",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-02-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 5.823,
+            "datetime_local": "2024-05-19-02",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-01-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.581,
+            "datetime_local": "2024-05-19-01",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-19-00-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 1.837,
+            "datetime_local": "2024-05-19-00",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-23-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.663,
+            "datetime_local": "2024-05-18-23",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-22-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.757,
+            "datetime_local": "2024-05-18-22",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-21-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 2.594,
+            "datetime_local": "2024-05-18-21",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-20-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 7.203,
+            "datetime_local": "2024-05-18-20",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-19-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 10.182,
+            "datetime_local": "2024-05-18-19",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-18-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 4.192,
+            "datetime_local": "2024-05-18-18",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-17-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 8.354,
+            "datetime_local": "2024-05-18-17",
+            "location_name": "Melbourne"
+        }
+    },
+    {
+        "_index": "aircondition",
+        "_id": "2024-05-18-16-Melbourne",
+        "_score": 1.0,
+        "_source": {
+            "BMP2_5": 3.526,
+            "datetime_local": "2024-05-18-16",
+            "location_name": "Melbourne"
+        }
+    }
+]
