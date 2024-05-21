@@ -1,0 +1,22 @@
+apiVersion: fission.io/v1
+kind: HTTPTrigger
+metadata:
+  creationTimestamp: null
+  name: put-database
+spec:
+  createingress: false
+  functionref:
+    functionweights: null
+    name: put-database
+    type: name
+  host: ""
+  ingressconfig:
+    annotations: null
+    host: '*'
+    path: /database/{datatype:[a-zA-Z0-9-]+}
+    tls: ""
+  method: ""
+  methods:
+  - POST
+  prefix: ""
+  relativeurl: /database/{datatype:[a-zA-Z0-9-]+}

@@ -59,7 +59,7 @@ def main():
             body=document
         )
         current_app.logger.info(f'Indexed airconditioni {f"{datetime_local}"}')        
-        return 'ok'
+        return 'ok',200
 
     api_key = "ef4c5176645445238294a9fbf5fa8ad1"
     subscription_name = "comp90024"

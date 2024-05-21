@@ -5,7 +5,7 @@ import seaborn as sns
 def categorize_air_quality(bmp2_5_value):
     if pd.isna(bmp2_5_value):
         return 'No Data'
-    if bmp2_5_value <= 4:
+    if bmp2_5_value <= 5:
         return 'Good'
     elif bmp2_5_value <= 12:
         return 'Moderate'
@@ -19,14 +19,12 @@ def categorize_air_quality(bmp2_5_value):
         return 'Hazardous'
 
 def analyze_air_quality_impact(mastodon_df):
-    # 使用新的列名
     mastodon_df['air_quality_category'] = mastodon_df['matched_BMP2_5'].apply(categorize_air_quality)
     grouped = mastodon_df.groupby('air_quality_category').agg({'sentiment': 'mean'}).reset_index()
     grouped.columns = ['Air Quality Category', 'Average Sentiment']
     return grouped
 
 def visualize_air_quality_impact(grouped):
-
     plt.figure(figsize=(10, 6))
     sns.barplot(x='Air Quality Category', y='Average Sentiment', data=grouped, palette="coolwarm")
     plt.title('Average Sentiment by Air Quality Category')
@@ -51,4 +49,3 @@ def plot_heatmap(df):
     plt.xlabel('Air Quality Category')
     plt.ylabel('Hour')
     plt.show()
-

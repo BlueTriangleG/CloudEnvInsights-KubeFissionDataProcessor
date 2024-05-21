@@ -69,12 +69,20 @@ def analyze_travel_modes(mastodon_df):
     
     return travel_stats, most_popular_travel_modes
 
-def visualize_travel_modes(travel_stats):
-    plt.figure(figsize=(12, 8))
-    sns.barplot(x='location', y='counts', hue='travel_modes', data=travel_stats)
-    plt.title('Most Popular Travel Modes by Location', fontsize=16)
-    plt.xlabel('Location', fontsize=14)
-    plt.ylabel('Counts', fontsize=14)
-    plt.xticks(rotation=45, ha='right', fontsize=12)
-    plt.legend(title='Travel Modes')
+def visualize_travel_modes_by_city(travel_stats):
+    locations = travel_stats['location'].unique()
+    num_locations = len(locations)
+    fig, axes = plt.subplots(num_locations, 1, figsize=(12, num_locations * 6), sharex=True)
+    
+    for i, location in enumerate(locations):
+        ax = axes[i]
+        location_stats = travel_stats[travel_stats['location'] == location]
+        sns.barplot(x='travel_modes', y='counts', data=location_stats, ax=ax)
+        ax.set_title(f'Most Popular Travel Modes in {location}', fontsize=16)
+        ax.set_xlabel('Travel Modes', fontsize=14)
+        ax.set_ylabel('Counts', fontsize=14)
+        ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='right', fontsize=12)
+    
+    plt.tight_layout()
     plt.show()
+

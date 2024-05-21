@@ -116,3 +116,4 @@ def main():
     except Exception as e:
         logging.error(f"Error fetching data from Elasticsearch: {e}")
         return json.dumps({"error": str(e)}), 500
+

@@ -31,7 +31,7 @@ def load_mastodon_data(file_path):
                 location = tag.lower().capitalize()
                 break
         if not location:
-            location = 'Unknown'  # 如果未找到标签，则设置为 'Unknown'
+            location = 'Around Australia'  # 如果未找到标签，则设置为 'Unknown'
         
         records.append({
             'post_id': source['id'],

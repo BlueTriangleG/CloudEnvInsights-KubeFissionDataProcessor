@@ -1,6 +1,5 @@
 import pandas as pd
 import json
-from datetime import datetime
 
 def load_air_quality_data(file_path):
     with open(file_path, 'r') as f:
@@ -35,13 +34,22 @@ def load_mastodon_data(file_path):
     records = []
     for record in mastodon_data:
         source = record['_source']
+        location = None
+        for tag in source.get('tags', []):
+            if tag.lower() in ['melbourne', 'sydney', 'brisbane']:  # 添加希望识别的地名
+                location = tag.lower().capitalize()
+                break
+        if not location:
+            location = 'Unknown'  # 如果未找到标签，则设置为 'Unknown'
+
         records.append({
             'id': source['id'],
             'created_at': source['created_at'],
             'lang': source['lang'],
             'sentiment': source['sentiment'],
             'tokens': source['tokens'],
-            'tags': source['tags']
+            'tags': source['tags'],
+            'location': location
         })
     
     mastodon_df = pd.DataFrame(records)
@@ -57,7 +65,9 @@ def load_mastodon_data(file_path):
     return mastodon_df
 
 def match_air_quality(row, air_quality_data):
-    matched_data = air_quality_data[(air_quality_data['datetime_local'] <= row['created_at']) & (air_quality_data['datetime_local'] >= row['created_at'] - pd.Timedelta(hours=1))]
+    matched_data = air_quality_data[(air_quality_data['location_name'] == row['location']) & 
+                                    (air_quality_data['datetime_local'] <= row['created_at']) & 
+                                    (air_quality_data['datetime_local'] >= row['created_at'] - pd.Timedelta(hours=1))]
     if not matched_data.empty:
         return matched_data.iloc[0].to_dict()  # 返回字典形式
     return None
