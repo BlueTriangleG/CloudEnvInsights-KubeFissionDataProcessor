@@ -20,7 +20,7 @@ Before using this frontend, ensure you are connected to the University of Melbou
 ## Folder Structure
 aircondition_vs_sentiment/: Analysis of air quality versus sentiment.
 aircondition_vs_weather/: Analysis of air quality versus weather conditions.
-language_distribution/: Analysis of language distribution in data.
+child_vs_aircondition/: Analysis of the average air quality score around each child care center
 methods_of_residents/: Analysis of residents' travel methods.
 weather_vs_sentiment/: Analysis of weather conditions versus sentiment.
 oneDayAnalysis/: Visualization of daily weather and PM2.5 data.
