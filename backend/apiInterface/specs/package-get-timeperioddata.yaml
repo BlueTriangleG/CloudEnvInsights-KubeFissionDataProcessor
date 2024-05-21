@@ -1,5 +1,5 @@
 include:
-- ./functions/get-timeperioddata.zip
+  - ./functions/get-timeperioddata.zip
 kind: ArchiveUploadSpec
 name: functions-get-timeperioddata-zip-QWsz
 
@@ -15,11 +15,11 @@ spec:
     checksum: {}
   environment:
     name: python
-    namespace: ""
+    namespace: ''
   source:
     checksum: {}
     type: url
     url: archive://functions-get-timeperioddata-zip-QWsz
 status:
   buildstatus: pending
-  lastUpdateTimestamp: "2024-05-21T02:56:54Z"
+  lastUpdateTimestamp: '2024-05-21T02:56:54Z'
