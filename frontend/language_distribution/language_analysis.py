@@ -3,7 +3,7 @@ import json
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# 语言代码到全称的映射字典
+# map language code to full name
 LANGUAGE_MAP = {
     'en': 'English',
     'de': 'German',
@@ -15,7 +15,6 @@ LANGUAGE_MAP = {
     'ja': 'Japanese',
     'ko': 'Korean',
     'ru': 'Russian',
-    # 添加更多语言代码和全称的映射
 }
 
 def load_mastodon_data(file_path):
@@ -27,16 +26,16 @@ def load_mastodon_data(file_path):
         source = record['_source']
         location = None
         for tag in source.get('tags', []):
-            if tag.lower() in ['melbourne', 'sydney', 'brisbane']:  # 添加希望识别的地名
+            if tag.lower() in ['melbourne', 'sydney', 'brisbane', 'adelaide']:
                 location = tag.lower().capitalize()
                 break
         if not location:
-            location = 'Around Australia'  # 如果未找到标签，则设置为 'Unknown'
+            location = 'Around Australia'
         
         records.append({
             'post_id': source['id'],
             'created_at': source['created_at'],
-            'language': source['lang'],  # 使用 language 字段
+            'language': source['lang'],  
             'tokens': source['tokens'],
             'tags': source['tags'],
             'location': location
@@ -53,21 +52,21 @@ def load_mastodon_data(file_path):
     return mastodon_df
 
 def analyze_language_distribution_by_location(mastodon_df):
-    # 统计按地区划分的语言分布
+    # calculate the distribution of languages in each location
     location_language_distribution = mastodon_df.groupby(['location', 'language']).size().reset_index(name='counts')
     
-    # 按语言计数排序，并仅保留每个地区前十种语言
+    # keep the top 10 languages for each location
     top_languages_by_location = location_language_distribution.groupby('location').apply(
         lambda x: x.nlargest(10, 'counts')
     ).reset_index(drop=True)
     
-    # 添加语言全称列
+    # add full language name
     top_languages_by_location['language_full'] = top_languages_by_location['language'].map(LANGUAGE_MAP)
     
     return top_languages_by_location
 
 def visualize_language_distribution_by_location(location_language_distribution):
-    # 绘制每个地区的前十种语言分布
+    # draw bar plots for each location
     locations = location_language_distribution['location'].unique()
     
     for location in locations:

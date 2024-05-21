@@ -5,7 +5,7 @@ def load_air_quality_data(file_path):
     with open(file_path, 'r') as f:
         air_quality_data = json.load(f)
     
-    # 提取需要的数据
+    # get the required data
     records = []
     for record in air_quality_data:
         source = record['_source']
@@ -18,7 +18,7 @@ def load_air_quality_data(file_path):
     air_quality_df = pd.DataFrame(records)
     air_quality_df['datetime_local'] = pd.to_datetime(air_quality_df['datetime_local'], format='%Y-%m-%d-%H')
     
-    # 检查时区信息并进行转换
+    # check the timezone information and convert if necessary
     if air_quality_df['datetime_local'].dt.tz is None:
         air_quality_df['datetime_local'] = air_quality_df['datetime_local'].dt.tz_localize('UTC')
     else:
@@ -30,17 +30,16 @@ def load_mastodon_data(file_path):
     with open(file_path, 'r') as f:
         mastodon_data = json.load(f)
     
-    # 提取需要的数据
     records = []
     for record in mastodon_data:
         source = record['_source']
         location = None
         for tag in source.get('tags', []):
-            if tag.lower() in ['melbourne', 'sydney', 'brisbane']:  # 添加希望识别的地名
+            if tag.lower() in ['melbourne', 'sydney', 'brisbane', 'adelaide']:  # can add more cities
                 location = tag.lower().capitalize()
                 break
         if not location:
-            location = 'Unknown'  # 如果未找到标签，则设置为 'Unknown'
+            location = 'Around Australia'  
 
         records.append({
             'id': source['id'],
@@ -54,9 +53,9 @@ def load_mastodon_data(file_path):
     
     mastodon_df = pd.DataFrame(records)
     mastodon_df['created_at'] = pd.to_datetime(mastodon_df['created_at'])
-    mastodon_df['hour'] = mastodon_df['created_at'].dt.hour  # 提取小时信息
+    mastodon_df['hour'] = mastodon_df['created_at'].dt.hour  # get the hour of the day
     
-    # 检查时区信息并进行转换
+    # check the timezone information and convert if necessary
     if mastodon_df['created_at'].dt.tz is None:
         mastodon_df['created_at'] = mastodon_df['created_at'].dt.tz_localize('UTC')
     else:
@@ -69,14 +68,14 @@ def match_air_quality(row, air_quality_data):
                                     (air_quality_data['datetime_local'] <= row['created_at']) & 
                                     (air_quality_data['datetime_local'] >= row['created_at'] - pd.Timedelta(hours=1))]
     if not matched_data.empty:
-        return matched_data.iloc[0].to_dict()  # 返回字典形式
+        return matched_data.iloc[0].to_dict() 
     return None
 
 def merge_data(mastodon_df, air_quality_data):
     matched_air_quality = mastodon_df.apply(lambda row: match_air_quality(row, air_quality_data), axis=1)
-    matched_air_quality = matched_air_quality.dropna()  # 移除 None 值
-    matched_air_quality_df = pd.DataFrame(matched_air_quality.tolist())  # 转换为 DataFrame
-    # 重命名列以避免与原始数据冲突
+    matched_air_quality = matched_air_quality.dropna()  
+    matched_air_quality_df = pd.DataFrame(matched_air_quality.tolist()) 
+    # rename the columns
     matched_air_quality_df.columns = ['matched_' + str(col) for col in matched_air_quality_df.columns]
     merged_df = pd.concat([mastodon_df.reset_index(drop=True), matched_air_quality_df.reset_index(drop=True)], axis=1)
     return merged_df
