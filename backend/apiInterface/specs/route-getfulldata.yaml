@@ -7,16 +7,16 @@ spec:
   createingress: false
   functionref:
     functionweights: null
-    name: getdata
+    name: getfulldata
     type: name
   host: ''
   ingressconfig:
     annotations: null
     host: '*'
-    path: /datatype/{datatype:[a-zA-Z0-9-]+}
+    path: /database/{datatype:[a-zA-Z0-9-]+}
     tls: ''
   method: ''
   methods:
     - GET
   prefix: ''
-  relativeurl: /datatype/{datatype:[a-zA-Z0-9-]+}
+  relativeurl: /database/{datatype:[a-zA-Z0-9-]+}

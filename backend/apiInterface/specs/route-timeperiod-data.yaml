@@ -13,10 +13,10 @@ spec:
   ingressconfig:
     annotations: null
     host: '*'
-    path: /datatype/{datatype:[a-zA-Z0-9-]+}/timeperiod/{startdate:[0-9]{4}-[0-1][0-9]-[0-3][0-9]-[0-2][0-9]}/{enddate:[0-9]{4}-[0-1][0-9]-[0-3][0-9]-[0-2][0-9]}
+    path: /database/{datatype:[a-zA-Z0-9-]+}/timeperiod/{startdate:[0-9]{4}-[0-1][0-9]-[0-3][0-9]-[0-2][0-9]}/{enddate:[0-9]{4}-[0-1][0-9]-[0-3][0-9]-[0-2][0-9]}
     tls: ''
   method: ''
   methods:
     - GET
   prefix: ''
-  relativeurl: /datatype/{datatype:[a-zA-Z0-9-]+}/timeperiod/{startdate:[0-9]{4}-[0-1][0-9]-[0-3][0-9]-[0-2][0-9]}/{enddate:[0-9]{4}-[0-1][0-9]-[0-3][0-9]-[0-2][0-9]}
+  relativeurl: /database/{datatype:[a-zA-Z0-9-]+}/timeperiod/{startdate:[0-9]{4}-[0-1][0-9]-[0-3][0-9]-[0-2][0-9]}/{enddate:[0-9]{4}-[0-1][0-9]-[0-3][0-9]-[0-2][0-9]}
