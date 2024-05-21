@@ -1,3 +1,4 @@
 pandas
 requests
 elasticsearch8
+dotenv

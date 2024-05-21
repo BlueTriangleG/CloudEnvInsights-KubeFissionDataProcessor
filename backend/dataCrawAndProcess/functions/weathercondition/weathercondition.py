@@ -76,4 +76,5 @@ def main():
     records = combined_mel.to_dict(orient='records')[0]
     response = store_data_to_elasticsearch(records)
     
+    
     return response

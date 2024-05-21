@@ -2,7 +2,9 @@ import requests
 import pandas as pd
 from elasticsearch8 import Elasticsearch, NotFoundError
 from flask import current_app, request
-
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 def main():
     def find_mel_1hr_data(air_data):
@@ -61,7 +63,7 @@ def main():
         current_app.logger.info(f'Indexed airconditioni {f"{datetime_local}"}')        
         return 'ok'
 
-    api_key = "ef4c5176645445238294a9fbf5fa8ad1"
+    api_key = os.getenv('air_api_key') #"ef4c5176645445238294a9fbf5fa8ad1"
     subscription_name = "comp90024"
     url = "https://gateway.api.epa.vic.gov.au/environmentMonitoring/v1/sites/parameters?environmentalSegment=air"
 
@@ -114,3 +116,6 @@ def main():
     
     response = store_data_to_elasticsearch(data)
     return response
+
+if __name__ == '__main__':
+    print(main())
