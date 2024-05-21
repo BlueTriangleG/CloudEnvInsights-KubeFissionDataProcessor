@@ -13,7 +13,7 @@ def send_data_to_cloud(index_name, json_file):
     
     return response
 
-if __name__ == "__main__":
+def main():
     index_name = 'aircondition'
     json_file = './data/pastData/pastAirCondition/aircondition.json'
     
@@ -23,3 +23,6 @@ if __name__ == "__main__":
     else:
         print(f"Failed to send data to Elasticsearch. Status code: {response.status_code}")
         print(f"Response: {response.text}")
+        
+if __name__ == "__main__":
+    main()
