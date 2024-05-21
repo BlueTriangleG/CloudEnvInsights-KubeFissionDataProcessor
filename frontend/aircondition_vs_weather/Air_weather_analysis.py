@@ -46,7 +46,7 @@ def preprocess(df):
 
 # Paths to JSON files
 weather_path = '../realtimeData/weathercondition.json'
-air_path = '../realtimeData/aircondition.json'
+air_path = '../realtimeData/aircondition_data2.json'
 
 # Convert JSON files to DataFrames
 weather_data = json_to_dataframe(weather_path)
