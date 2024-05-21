@@ -3,11 +3,18 @@
 
 # Ignore all JSON files
 *.json
+*/*.json
+
+# Ignore all CSV files
+*.csv
+*/*.csv
 
 # Ignore .DS_Store files
 *.DS_Store
+*/.DS_Store
 
 # Ignore all Python cache files
+__pycache__/
 *.pyc
 *.pyo
 *.pyd

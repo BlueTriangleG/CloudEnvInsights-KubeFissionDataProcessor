@@ -2,13 +2,19 @@
 
 ## Introduction to our project
 
-<<<<<<< Updated upstream
 This project designs and implements a cloud data processing system based on Kubernetes and Fission framework on the OpenStack server platform. This system can automatically crawl and process raw real-time data through Fission Trigger, and store and manage it via Elasticsearch. 
 
 For data anlysis, this project will explore several different scenarios that underscore the critical role of sustainable practices in urban environments. We aim to help people get to know more about the impact of the environment on daily life, find the potential linkage between humans and the environment, and ask people to focus more on climate protection.
-=======
-## Using guide
->>>>>>> Stashed changes
+
+## Guide
+
+Read the README.md in each individual folder to gain detailed information and guiding!
+- /backend: where fission structure and functionality deployment maintained
+- /data: where retrieved data from frontend app maintained
+- /database: where test and initialise scripts of database maintained
+- /docs: where project report and documentations saved
+- /frontend: where Jupyter Notebook Application and anlysis functions maintained
+- /test: where test scriptes maintained
 
 ## Project structure
 
