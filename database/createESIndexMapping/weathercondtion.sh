@@ -1,5 +1,5 @@
 #!/bin/sh
-curl -X PUT -k 'https://127.0.0.1:9200/mastodon-aus-social' \
+curl -X PUT -k 'https://127.0.0.1:9200/weathercondition' \
   --header 'Content-Type: application/json' \
   --data '{
     "settings": {
@@ -9,14 +9,60 @@ curl -X PUT -k 'https://127.0.0.1:9200/mastodon-aus-social' \
         }
     },
     "mappings": {
-      "properties": {
-        "id": { "type": "keyword" },
-        "created_at": { "type": "date" },
-        "lang": { "type": "keyword" },
-        "sentiment": { "type": "float" },
-        "tokens": { "type": "keyword" },
-        "tags": { "type": "keyword" }
-      }
+          "properties": {
+          "air_temp": {
+            "type": "float"
+          },
+          "apparent_t": {
+            "type": "float"
+          },
+          "delta_t": {
+            "type": "float"
+          },
+          "dewpt": {
+            "type": "float"
+          },
+          "gust_kmh": {
+            "type": "float"
+          },
+          "gust_kt": {
+            "type": "float"
+          },
+          "lat": {
+            "type": "float"
+          },
+          "local_date_time_full": {
+            "type": "date",
+            "format": "yyyy-MM-dd-HH"
+          },
+          "lon": {
+            "type": "float"
+          },
+          "name": {
+            "type": "keyword"
+          },
+          "press": {
+            "type": "float"
+          },
+          "press_msl": {
+            "type": "float"
+          },
+          "press_qnh": {
+            "type": "float"
+          },
+          "rel_hum": {
+            "type": "integer"
+          },
+          "wind_dir": {
+            "type": "keyword"
+          },
+          "wind_spd_kmh": {
+            "type": "float"
+          },
+          "wind_spd_kt": {
+            "type": "float"
+          }
+        }
     }
   }' \
   --user 'elastic:elastic' | jq '.'
