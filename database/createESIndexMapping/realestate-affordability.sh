@@ -1,3 +1,4 @@
+#!/bin/sh
 curl -X PUT -k 'https://127.0.0.1:9200/realestate-affordability' \
   --header 'Content-Type: application/json' \
   --data '{
