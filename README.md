@@ -4,6 +4,9 @@ This project designs and implements a cloud data processing system based on Kube
 
 For data anlysis, this project will explore several different scenarios that underscore the critical role of sustainable practices in urban environments. We aim to help people get to know more about the impact of the environment on daily life, find the potential linkage between humans and the environment, and ask people to focus more on climate protection.
 
+## Introduction video
+[Link for instruction](https://youtu.be/ZOfMYno1ULs?si=xpa1-fuV3xZmAnoj)
+
 ## Guide
 
 Read the README.md in each individual folder to gain detailed information and guiding!
